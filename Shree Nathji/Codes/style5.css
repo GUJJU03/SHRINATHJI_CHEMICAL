@@ -92,7 +92,8 @@ nav .whatsapp p {
 }
 
 .overlay {
-    background-image: linear-gradient(to right, rgba(90, 100, 232, 0.9), rgba(84, 96, 234, 0.9));
+    /* background-image: linear-gradient(to right, rgba(90, 100, 232, 0.6), rgba(84, 96, 234, 0.6)); */
+    background: rgb(2, 113, 113);
     width: 100%;
     height: max-content;
     z-index: 1;
@@ -298,15 +299,19 @@ ul.contact-info li {
 
 /* --------------------------------------------- footer ------------------------------------------------ */
 footer {
-    height: 200px;
+    height: 30vh;
     width: 100%;
-    background-color: black;
-    position: relative;
-    /* Change from 'absolute' to 'fixed' */
-    bottom: 0;
-    left: 0;
+    background-color:#0c9595;
 }
-
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .lower-footer{
+    bottom: 0   ;
+    color: white;
+    text-align: center;
+}
 
 
 /* ---------------------------------------- css for small screen ---------------------------------------------------  */
