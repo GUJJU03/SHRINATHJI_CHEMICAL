@@ -120,9 +120,10 @@ nav .whatsapp p {
 
 .first-part-main h1{
     font-size: 45px;
-    color: aqua;
+    color:blue;
     font-weight: 600;
 }
+
 .first-part-main p{
     font-size: 20px;
 }
@@ -256,7 +257,7 @@ footer .lower-footer{
     }
     .first-part-main h1{
         font-size: 45px;
-        color: aqua;
+        color:blue;
         font-weight: 600;
     }
     .first-part-main p{

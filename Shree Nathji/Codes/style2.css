@@ -92,7 +92,12 @@ nav .whatsapp p {
   width: 100%;
   border: 1px solid black;
 }
-
+.blue{
+  color: blue;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
 .main-section-one h1 {
   color: white;
   font-weight: 800;
@@ -108,7 +113,9 @@ nav .whatsapp p {
   justify-content: space-around;
 
 }
-
+.about-us-one-text h2{
+ 
+}
 .about-us-one-image {
   width: 45%;
   height: 200px;
@@ -174,7 +181,16 @@ nav .whatsapp p {
   padding: 20px;
 
 }
-
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.video video{
+  height: 500px;
+  width: max-content;
+}
 .texts-three h1 {
   text-align: center;
 }
@@ -863,6 +879,18 @@ footer .lower-footer{
     width: 400px;
    
   }
+
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .video video{
+    height: 250px;
+    width: 320px;
+  }
+
 
   .section-five{
     height: max-content;

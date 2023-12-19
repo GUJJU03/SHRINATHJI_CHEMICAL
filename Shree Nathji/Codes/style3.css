@@ -77,7 +77,10 @@ nav .whatsapp p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.blue{
+    color: blue;
+    font-weight: 650;
+}
 .main-section-one {
     height: 50vh;
     width: 100%;

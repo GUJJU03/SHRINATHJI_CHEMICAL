@@ -79,7 +79,7 @@ nav .whatsapp p {
 .text-one span {
     font-size: 45px;
     font-weight: 800;
-    color: rgb(13, 247, 247);
+   color:blue;
 }
 
 .text-one p {
@@ -107,7 +107,7 @@ dotlottie-player {
 .section-two span {
     font-size: 45px;
     font-weight: 800;
-    color: rgb(13, 247, 247);
+   color:blue;
 }
 
 .box-one-second p {
@@ -197,7 +197,7 @@ dotlottie-player {
 .second-p span {
     font-size: 45px;
     font-weight: 800;
-    color: rgb(13, 247, 247);
+   color:blue;
 }
 .lower-part{
     display: flex;
@@ -215,7 +215,6 @@ dotlottie-player {
 .products{
     display: flex;
 }
-
 
 /* ---------------------------------------------------------------- section-six----------------------------------------------------------- */
 
@@ -433,7 +432,7 @@ footer .lower-footer{
     .text-one span {
         font-size: 35px;
         font-weight: 800;
-        color: rgb(13, 247, 247);
+       color:blue;
     }
 
     .text-one p {
@@ -485,14 +484,14 @@ footer .lower-footer{
     }
 
     .first-part p {
-        font-size: 30px;
+        font-size: 20px;
+        margin-left: 50px;
     }
 
     .first-part img {
-        width: 68px;
+        width: 60px;
         font-size: 25px;
     }
-
     .sec-image {
         margin-right: 20px;
     }
@@ -510,12 +509,19 @@ footer .lower-footer{
     /* -----------------------section-five-------------------------------- */
 
     .section-five{
-        padding: 30px;
+        padding: 10px;
     }
     .products{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
-    
+    .products img{
+        justify-content: center;
+        align-items: center;
+        width:250px;
+        height: 300px;
+    }
     
 }
