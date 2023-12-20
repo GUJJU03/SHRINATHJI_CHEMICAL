@@ -70,7 +70,7 @@ nav .whatsapp img:hover{
 }
 
 nav .logo img {
-  width: 180px;
+  width: 220px;
 }
 
 nav .whatsapp p {
@@ -853,6 +853,9 @@ footer .lower-footer{
       display: block;
       margin: 25px;
   }
+  nav .logo img{
+    width: 150px;
+  }
 
   nav ul .small_screen_nav.img {
       position: absolute;
@@ -890,7 +893,6 @@ footer .lower-footer{
     height: 250px;
     width: 320px;
   }
-
 
   .section-five{
     height: max-content;

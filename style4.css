@@ -4,21 +4,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Playpen Sans',
+     font-family: 'Playpen Sans',
         cursive;
     font-family: 'Poppins',
         sans-serif;
     font-family: 'Questrial',
         sans-serif;
     font-weight: 600;
-    &::before,
+    &::before,  
     &::after {
         box-sizing: border-box;
     }
 
 }
 
-/* ---------------------------------------Navbar---------------------------------------------------- */
 nav {
     position: relative;
     display: flex;
@@ -61,26 +60,21 @@ nav img {
     width: 30px;
     margin-right: 10px;
 }
-
 nav .logo img {
-    width: 180px;
+    width: 220px;
 }
-
 nav .whatsapp p {
     margin-left: 50px;
 }
 
-/* --------------------------------------------------------section-one--------------------------------------------------------- */
+/* ----------------------------------- upper-part --------------------------------------------------- */
 .section-one {
     /* background:url(https://c4.wallpaperflare.com/wallpaper/922/313/191/abstract-abstraction-biology-chemistry-wallpaper-preview.jpg); */
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.blue{
-    color: blue;
-    font-weight: 650;
-}
+
 .main-section-one {
     height: 50vh;
     width: 100%;
@@ -96,35 +90,12 @@ nav .whatsapp p {
     margin: 10% 0;
 }
 
-
-/* ---------------------------------------first-section---------------------------------------------------- */
-
-.first-section {
-    height: max-content;
-    width: 100%;
-    background-color: whitesmoke;
+.second-part-main dotlottie-player{
+    width: 450px; 
+    height: 550px
 }
 
-.first-main-part {
-    padding: 50px;
-    margin-top: 30px;
-}
-
-.first_p {
-    font-size: 25px;
-    color: rgb(237, 182, 81);
-    font-weight: 600;
-}
-
-.text-part {
-    width: 55%;
-}
-.image-first dotlottie-player{
-    height: 450px;
-    width: 450px;
-}
-
-/* ---------------------------------------- middle-text------------------------------------------ */
+/* ------------------types-first----------------- */
 
 .random {
     padding: 50px;
@@ -135,9 +106,9 @@ nav .whatsapp p {
 
 .text-mi footer {
     background-color: #343a40;
-    /* Set background color */
+
     color: #ffffff;
-    /* Set text color */
+
     text-align: center;
     padding: 15px;
     position: relative;
@@ -145,68 +116,57 @@ nav .whatsapp p {
     width: 100%;
 }
 
-/* <!-- -------------------------------------- section-second--------------------------- --> */
+.first-part-main h1{
+    font-size: 45px;
+    color:blue;
+    font-weight: 600;
+}
 
-.section-second {
+.first-part-main p{
+    font-size: 20px;
+}
+.first-section{
+    height: max-content;
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------second-section------------------------------------------------------- */
+
+.second-section{
     background-color: whitesmoke;
     height: max-content;
     width: 100%;
-    padding: 50px;
 }
-
-.texts-main-second {
+.image{
     display: flex;
-    justify-content: space-between;
-}
-
-.col-sm {
-    align-items: center;
-    /* height: 20%; */
+    justify-content: center;
     align-items: center;
 }
-
-.texts-mini {
+.image img{
     height: max-content;
-    width: 45%;
-    /* border: 1px solid black; */
-    font-size: 22px;
+    width: 90%;
+}
+.WPCWM {
+    background-color: skyblue;
+    width: max-content;
 }
 
-.image {
-    margin-bottom: 20px;
-    width: 45%;
-}
-.image dotlottie-player{
-    width: 450px;
-    height: 450px;
-}
 
-.last-section {
+/* ---------------------------------------------------third-section----------------------------------------- */
+
+.last-section{
     height: max-content;
     width: 100%;
     background-color: wheat;
     text-align: center;
-}
-
-.texts-last {
+  }
+  .texts-last{
     padding: 30px;
+  }
 
-}
+/* ------------------------------------------------------ footer ---------------------------------------------- */
 
-.text-middle p {
-    font-size: 22px;
-    font-weight: 800;
-}
-
-.text-middle span {
-    font-size: 20px;
-}
-
-.second-p {
-    font-size: 20px;
-}
-
-/* ------------------------------- footer ------------------------------------------- */
 footer {
     height: 30vh;
     width: 100%;
@@ -222,10 +182,9 @@ footer .lower-footer{
     text-align: center;
 }
 
+/* -------------------------------------------------------------- css for small screen -------------------------------------------  */
 
-/* ------------------------------------------------------ css for small screen --------------------------------------------------------  */
-
-@media only screen and (max-width:1100px) {
+  @media only screen and (max-width:1100px) {
     nav {
         width: 100%;
     }
@@ -256,7 +215,7 @@ footer .lower-footer{
         cursor: pointer;
     }
 
-    nav ul {
+    nav ul {    
         margin-top: 10;
         position: fixed;
         background-color: #1eecffeb;
@@ -282,28 +241,25 @@ footer .lower-footer{
         left: 15px;
     }
 
+    /* ----------------------- first-section ----------------------------  */
 
-    .text-part.selector{
-        padding: 50px;
-    }
-    .image-first dotlottie-player{
-        height:350px;
-        width: 400px;
-    }
-
- /* --------------------------------- second-section----------------------------- */
-    .texts-main-second{
-        height: max-content;
+    .parent-part{
         flex-wrap: wrap;
-        text-align: justify;
     }
-
-    .image dotlottie-player{
-        width: 300px;
-        height: 300px;
+    .second-part-main dotlottie-player{
+        width: 330px; 
+        height: 350px;        
     }
-    .texts-mini{
-        width: 100%;
+    .first-part-main{
+        margin-right: 25px;
+    }
+    .first-part-main h1{
+        font-size: 45px;
+        color:blue;
+        font-weight: 600;
+    }
+    .first-part-main p{
+        font-size: 20px;
     }
     
 }

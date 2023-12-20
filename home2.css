@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&family=Poppins&family=Questrial&display=swap');
 
-
 * {
     font-family: 'Playpen Sans',
         cursive;
@@ -58,7 +57,7 @@ nav img {
 }
 
 nav .logo img {
-    width: 180px;
+    width: 220px;
 }
 
 nav .whatsapp p {
